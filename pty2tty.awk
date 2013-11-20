@@ -1,6 +1,7 @@
 #!/usr/bin/gawk -f
 # pty2tty.awk: Create solarized color scheme for TTY. 
-# Usage: gawk [-v t=l[ight]] -f pty2tty.awk Xresources
+# Usage: ./pty2tty.awk [-v t=light|dark] $Xresources
+# With $Xresources from http://github.com/altercation.
 # Put resulting code in your shell's startup/login file. 
 # By Joep van Delft, 2013
 
